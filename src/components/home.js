@@ -1,10 +1,22 @@
 import React from 'react'
 
-function Home()
-{
-    return(
+function Home() {
+    return (
         <div>
             <h1>Home</h1>
+            <div className="add-to-cart"><img src="https://img.icons8.com/ultraviolet/40/000000/add-shopping-cart.png" /></div>
+            <div className="cart-wrapper">
+                <div className="img-wrapper item">
+                    <img src="https://i.picsum.photos/id/0/5616/3744.jpg?hmac=3GAAioiQziMGEtLbfrdbcoenXoWAW-zlyEAMkfEdBzQ" />
+                </div>
+                <div className="text-wrapper item">
+                    <span>Hp Laptop Price : $ 39000.00</span>
+                </div>
+                <div className="btn-wrapper item">
+                    <button> Add To Cart</button>
+                </div>
+
+            </div>
         </div>
     )
 }

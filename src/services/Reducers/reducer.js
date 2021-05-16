@@ -5,14 +5,14 @@ const initialSate = {
 
 }
 
-export default function cardItems(state = initialSate, action) {
+export default function cardItems(state = [], action) {
     switch (action.type) {
         case ADD_TO_CART:
             console.warn("Reducer Data:", action)
-            return {
+            return [
                 ...state,
-                cardData: action.data
-            }
+                { cardData: action.data }
+    ]
             break
         default:
             return state

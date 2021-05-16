@@ -1,8 +1,9 @@
 import React from 'react'
-import HomeContainer from './container/HomeContainer'
 import User from './User'
 import logo from './logo.svg';
 import './App.css';
+import HomeContainer from './container/HomeContainer'
+
 
 
 function App() {
